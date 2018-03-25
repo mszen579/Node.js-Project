@@ -1,0 +1,20 @@
+{
+  "name": "github-nodejs",
+  "version": "1.0.0",
+  "description": "a little test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "mohammad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}

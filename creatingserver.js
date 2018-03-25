@@ -7,5 +7,5 @@ var server = http.createServer(function(req, res) { //request and responce
     res.end('Hey Mohammad');
 });
 
-server.listen(3000, '127.0.0.1');
+server.listen(3000, 'localhost');//or we can use 127.0.0.1 instead of localhost
 console.log('now we are listening to port 3000');
